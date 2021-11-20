@@ -7,6 +7,11 @@ const createStore = () => {
         message: 'hogehoge',
       }
     },
+    mutations: {
+      updateMessage: (state) => {
+        state.message = 'update!'
+      },
+    },
   })
 }
 
