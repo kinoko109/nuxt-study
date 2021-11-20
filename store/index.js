@@ -8,8 +8,8 @@ const createStore = () => {
       }
     },
     mutations: {
-      updateMessage: (state) => {
-        state.message = 'update!'
+      updateMessage: (state, payload) => {
+        state.message = payload
       },
     },
   })
