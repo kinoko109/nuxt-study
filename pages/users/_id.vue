@@ -6,11 +6,11 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        message: '_id.vueを表示'
-      }
+export default {
+  data() {
+    return {
+      message: '_id.vueを表示',
     }
-  }
+  },
+}
 </script>
