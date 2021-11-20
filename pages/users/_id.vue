@@ -2,7 +2,12 @@
   <section>
     <!--    <h1>{{ message }}</h1>-->
     <!--    <p>id: {{ this.$route.params.id }}</p>-->
-    <p>{{ users[0].id }} : {{ users[1].name }}</p>
+    <!--    <p>{{ users[0].id }} : {{ users[1].name }}</p>-->
+    <ul>
+      <li v-for="user in users" :key="user.id">
+        {{ user.id }} {{ user.name }}
+      </li>
+    </ul>
   </section>
 </template>
 
