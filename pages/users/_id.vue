@@ -12,5 +12,8 @@ export default {
       message: '_id.vueを表示',
     }
   },
+  validate({ params }) {
+    return /^\d+$/.test(params.id)
+  },
 }
 </script>
